@@ -1,0 +1,48 @@
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.tile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    background: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+    display: flex;
+    gap: 10px;
+}
+
+.fa-circle,
+.fa-xmark {
+    font-size: 60px;
+}
+
+.alert {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
